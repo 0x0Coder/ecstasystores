@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import { Button } from "@nextui-org/react";
+import { Button,Link } from "@nextui-org/react";
 
 export default function LandingPageVideo() {
   return (
@@ -29,7 +29,9 @@ export default function LandingPageVideo() {
           Sync your toys together to feel the same sensations no matter the
           distance!
         </p>
+        <Link href="/store">
         <Button className="bg-primary mt-2 text-white">Shop Now</Button>
+        </Link>
       </div>
     </div>
   );

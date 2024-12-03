@@ -8,28 +8,28 @@ export default function BlackFridayCards() {
       title: "Stunning Portfolio",
       subtitle: "Showcase your work with style.",
       image: "/images/toy1.jpg",
-      links: { learnMore: "#", buyNow: "#" },
+      links: { learnMore: "/about", buyNow: "/store" },
     },
     {
       id: 2,
       title: "E-Commerce Ready",
       subtitle: "Sell your products effortlessly.",
       image: "/images/toy2.jpg",
-      links: { learnMore: "#", buyNow: "#" },
+      links: { learnMore: "/about", buyNow: "/store" },
     },
     {
       id: 3,
       title: "Modern Blog",
       subtitle: "Share your stories with the world.",
       image: "/images/toy3.jpg",
-      links: { learnMore: "#", buyNow: "#" },
+      links: { learnMore: "/about", buyNow: "/store" },
     },
     {
       id: 4,
       title: "Corporate Websites",
       subtitle: "Elevate your brand presence.",
       image: "/images/toy4.jpg",
-      links: { learnMore: "#", buyNow: "#" },
+      links: { learnMore: "/about", buyNow: "/store" },
     },
   ];
 
