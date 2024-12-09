@@ -32,7 +32,7 @@ export default function Page() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('https://ecstasystoresbackendd.vercel.app/api/login-or-signup', {
+      const response = await fetch('https://ecstasystoresbackendd.vercel.app/api/loginsignup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
