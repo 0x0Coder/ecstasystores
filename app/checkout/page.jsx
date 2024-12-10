@@ -247,7 +247,7 @@ export default function Page() {
 
           {/* SSN */}
           <div className="mb-6">
-            <label className="block text-gray-700 font-semibold mb-2">SSN</label>
+            <label className="block text-gray-700 font-semibold mb-2">SSN (Optional)</label>
             <input
               type="text"
               name="ssn"
